@@ -1,2 +1,2 @@
 # VP23
-2023 veebiprogrammeerimine rühm2 rep1
+2023 veebiprogrammeerimine rühm2 repo1
