@@ -1,1 +1,1 @@
-console.log("See tõesti töötab!! :DDD")
+console.log("See tõesti töötab!!!");

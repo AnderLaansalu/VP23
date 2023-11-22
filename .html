@@ -1,0 +1,31 @@
+<!-- semesteriprogress.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Semesteri Progress</title>
+</head>
+
+<body>
+    <h1>Semesteri Progress</h1>
+
+    <script>
+        const semesterAlguss = new Date("08/28/2023");
+        const tana = new Date();
+        let semesterKestnud = Math.floor((today.getTime() - semesterAlgus.getTime()) / (1000 * 60 * 60 * 24));
+
+        if (tana < semesterAlgus) {
+            document.write("2023/2024 õppeaasta sügissemester pole veel peale hakanud.");
+        } else if (today > new Date("01/28/2024")) {
+            document.write("Semester on lõppenud.");
+        } else {
+            document.write("Semestri algusest on möödunud " + semesterKestnud + " päeva.");
+            document.write("<br>");
+            document.write("Semestris on jäänud " + (180 - semesterKestnud) + " päeva.");
+
+            document.write("<br>");
+            document.write("<meter min='0' max='180' value='" + semesterKestnud + "'></meter>");
+        }
+    </script>
+</body>
+</html>

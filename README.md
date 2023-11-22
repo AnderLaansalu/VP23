@@ -1,2 +1,2 @@
-# VP23
-2023 veebiprogrammeerimine rühm2 repo1
+# vp23_andaava
+Veebiprogemine 2023 sügis
